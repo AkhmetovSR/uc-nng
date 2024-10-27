@@ -1,0 +1,18 @@
+.Ministerstvo{
+    /*border: 1px solid blue;*/
+    /*height: 11.8vh;*/
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    justify-items: center;
+}
+
+.MinNauki, .MinProsv, img{
+    width: 90%;
+}
+.MinNauki{
+    /*border: 1px solid red;*/
+}
+.MinProsv{
+    /*border: 1px solid red;*/
+}

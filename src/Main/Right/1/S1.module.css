@@ -1,0 +1,31 @@
+.S1{
+    border: 1px solid green;
+    width: 90%;
+}
+.Line1{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    padding: 20px;
+    height: 100%;
+}
+.Title{
+    border: 1px solid green;
+}
+.LogoRN{
+    border: 1px solid red;
+}
+.Line2{
+
+}
+.HistoryNow{
+
+}
+.History{
+
+}
+.Now{
+
+}
+.Contacts{
+
+}

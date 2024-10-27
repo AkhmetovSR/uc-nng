@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Klab";
+    src: url("../../../resource/font/Lunasima-Bold.ttf");
+}
+@font-face {
+    font-family: "Forum";
+    src: url("../../../resource/font/Forum-Regular.ttf");
+}
+
+.Logo{
+    /*border: 1px solid red;*/
+    /*width: 100%;*/
+    /*height: 12vh;*/
+    display: grid;
+    grid-template-columns: 20% auto;
+    border-bottom: 1px solid #BFBFBF;
+}
+.Logotype{
+    /*border: 1px solid green;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    display: grid;
+    align-content: center;
+    justify-content: start;
+}
+.Title{
+    /*border: 1px solid green;*/
+    /*width: 100%;*/
+    text-align: center;
+    display: grid;
+    align-content: center;
+    font-size: 1.2vw;
+}
+.LogoNNG{
+    width: 85%;
+    border-radius: 0 5px 5px 0;
+}
+
+.LearningCenter{
+    font-size: 120%;
+    color: white;
+    /*border: 1px solid red;*/
+    font-family: Klab;
+}
+.AORNNNG{
+    color: white;
+    /*border: 1px solid red;*/
+    font-size: 70%;
+    font-family: "Montserrat Thin";
+    font-weight: bold;
+}
