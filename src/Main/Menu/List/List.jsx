@@ -8,6 +8,9 @@ import Teacher from "../../../resource/teacher.png";
 import Material from "../../../resource/material.png";
 import Ruble from "../../../resource/ruble.png";
 import Home from "../../../resource/home.png";
+import Vacation from "../../../resource/vacation.png";
+import Scholarship from "../../../resource/scholarship.png";
+import World from "../../../resource/world.png";
 
 function List() {
     const sections = [
@@ -20,9 +23,9 @@ function List() {
         {id: 8, img: Material, link: "", text: "Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда"},
         {id: 8, img: Ruble, link: "", text: "Платные образовательные услуги"},
         {id: 9, img: Home, link: "", text: "Финансово-хозяйственная деятельность"},
-        {id: 10, img: "", link: "", text: "Вакантные места для приема (перевода) обучающихся"},
-        {id: 11, img: "", link: "", text: "Стипендии  и меры поддержки обучающихся "},
-        {id: 12, img: "", link: "", text: "Международное сотрудничество"},
+        {id: 10, img: Vacation, link: "", text: "Вакантные места для приема (перевода) обучающихся"},
+        {id: 11, img: Scholarship, link: "", text: "Стипендии  и меры поддержки обучающихся "},
+        {id: 12, img: World, link: "", text: "Международное сотрудничество"},
         {id: 13, img: "", link: "", text: "Организация питания в образовательной организации"},
         {id: 14, img: "", link: "", text: "Образовательные стандарты и требования"},
         {id: 15, img: "", link: "", text: "Информация для студентов, выпускников, кандидатов"}
