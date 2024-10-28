@@ -1,6 +1,15 @@
 .S2{
+    /*border: 2px solid red;*/
     width: 90%;
     display: grid;
     grid-template-rows: auto auto;
-    background-color: grey;
+    /*background-color: grey;*/
+    /*height: 98vh;*/
+}
+
+.Structure{
+    /*box-shadow: 0 4px 17px 1px #d9d9d9;*/
+    /*width: 40vw;*/
+    /*height: 20vh;*/
+    text-align: center;
 }
