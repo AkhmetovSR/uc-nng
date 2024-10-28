@@ -29,17 +29,23 @@
     color: #E2E2E2;
     margin-top: 1.5vh;
     font-size: 1.2vw;
+    padding-left: 5%;
+    /*justify-content: center;*/
 }
 
 .IconSection{
-    width: 100%;
-    /*border: 1px solid green;*/
+    /*width: 89%;*/
+    /*border: 1px solid red;*/
     display: grid;
     align-content: center;
     justify-content: center;
     /*background-color: #333333;*/
     /*border: 1px solid #FECF00;*/
     border-radius: 5px 0 0 5px;
+    /*margin-left: 25%;*/
+    border-right: 1px solid #4d4d4d;
+    background-color: #333333;
+
 }
 /*.Nav{*/
 /*    border: 1px solid red;*/
@@ -49,10 +55,10 @@
     /*display: grid;*/
     /*align-content: center;*/
     text-align: start;
-    /*border: 1px solid green;*/
+    /*border: 1px solid red;*/
     font-family: "Montserrat Thin";
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     background-color: #333333;
     margin-right: 10%;
     border: 0;
