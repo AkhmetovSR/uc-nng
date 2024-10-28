@@ -6,6 +6,10 @@
     font-family: "Forum";
     src: url("../../../resource/font/Forum-Regular.ttf");
 }
+@font-face {
+    font-family: "Montserrat Thin";
+    src: url('../../../resource/font/Montserrat-Thin.ttf');
+}
 
 .Logo{
     /*border: 1px solid red;*/
@@ -13,7 +17,8 @@
     /*height: 12vh;*/
     display: grid;
     grid-template-columns: 20% auto;
-    border-bottom: 1px solid #BFBFBF;
+    border-bottom: 1px solid #575757;
+    /*background-color: #FECF00;*/
 }
 .Logotype{
     /*border: 1px solid green;*/

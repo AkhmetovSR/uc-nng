@@ -1,31 +1,97 @@
+@font-face {
+    font-family: "Montserrat ExtraBold";
+    src: url('../../../resource/font/Montserrat-ExtraBold.ttf');
+}
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url('../../../resource/font/Montserrat-Regular.ttf');
+}
 .S1{
-    border: 1px solid green;
+    /*border: 2px solid red;*/
     width: 90%;
+    display: grid;
+    grid-template-rows: auto auto;
 }
 .Line1{
+    /*border: 1px solid blue;*/
     display: grid;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: 85% 15%;
-    padding: 20px;
-    height: 100%;
+    /*padding: 20px;*/
+    margin-top: 2%;
+    border-radius: 5px;
+    box-shadow: 0 4px 17px 1px #d9d9d9;
+    font-size: 1.2vw;
 }
 .Title{
-    border: 1px solid green;
+    padding-left: 2%;
+    /*border: 1px solid blue;*/
 }
+.FullName, .ShortName{
+    font-size: 60%;
+    font-family: "Montserrat Regular";
+    color: #686868;
+    /*margin: 1%;*/
+}
+.Name{
+    font-family: "Montserrat ExtraBold";
+    color: #686868;
+    margin-bottom: 1%;
+}
+
 .LogoRN{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    background-image: url("../../../resource/LogoNNG.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
 }
 .Line2{
-
+    height: 77vh;
+    margin-top: 1%;
+    /*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
 .HistoryNow{
-
+    width: 98.5%;
+    /*border: 1px solid green;*/
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 .History{
-
+    height: 98%;
+    /*border: 1px solid green;*/
 }
 .Now{
-
+    height: 98%;
+    /*border: 1px solid green;*/
+    align-self: end;
 }
 .Contacts{
 
+}
+
+.History, .Now, .Contacts{
+    box-shadow: 0 4px 17px 1px #d9d9d9;
+    border-radius: 5px;
+}
+
+.Top{
+    height: 100%;
+    /*background-color: #4d4d4d;*/
+    /*position: absolute;*/
+}
+.Mid{
+    background-color: #2325bb;
+    /*position: absolute;*/
+    height: 100%;
+}
+.Bot{
+    background-color: #ad7979;
+    /*position: absolute;*/
+    height: 20vh;
 }

@@ -1,0 +1,6 @@
+.S2{
+    width: 90%;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: grey;
+}
