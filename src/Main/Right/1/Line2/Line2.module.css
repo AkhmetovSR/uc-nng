@@ -60,3 +60,9 @@
     width: 70%;
     border-radius: 5px;
 }
+.PhotoCard{
+    border: 1px solid red;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

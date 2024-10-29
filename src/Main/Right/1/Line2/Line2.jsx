@@ -19,7 +19,7 @@ function Line2() {
         {id: 1, photo: uc6},
     ]
     const photo = photoArr.map(photo =>
-    <div key={photo.id}>
+    <div key={photo.id} className={s.PhotoCard}>
         <img src={photo.photo} className={s.Photo} alt="uc"/>
     </div>
     )
@@ -80,7 +80,7 @@ function Line2() {
                 </div>
             </motion.div>
 
-            <motion.div initial={{opacity: 0, scale: 0.9}} animate={{opacity: 1, scale: 1}} transition={{duration: 0.5}} className={s.SubContacts}>
+            <motion.div initial={{opacity: 0, scale: 0.9}} animate={{opacity: 1, scale: 1}} transition={{duration: 0.4}} className={s.SubContacts}>
                 <Contacts/>
             </motion.div>
         </div>
