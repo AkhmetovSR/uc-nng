@@ -48,3 +48,15 @@
     border-radius: 5px;
     background-image: url("../../../../resource/Tawer.webp");
 }
+.PhotoDiv{
+    /*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    justify-content: center;
+}
+.Photo{
+    /*border: 1px solid red;*/
+    width: 70%;
+    border-radius: 5px;
+}

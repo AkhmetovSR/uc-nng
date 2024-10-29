@@ -1,17 +1,7 @@
-@font-face {
-    font-family: "Montserrat ExtraBold";
-    src: url('../../../resource/font/Montserrat-ExtraBold.ttf');
-}
-@font-face {
-    font-family: "Montserrat Regular";
-    src: url('../../../resource/font/Montserrat-Regular.ttf');
-}
 .S1{
     /*border: 1px solid red;*/
     width: 90%;
     display: grid;
-    /*grid-auto-rows: auto auto;*/
     height: 99vh;
-    /*overflow: hidden;*/
 }
 
