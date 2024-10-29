@@ -1,6 +1,6 @@
 .Ministerstvo{
     /*border: 1px solid blue;*/
-    /*height: 11.8vh;*/
+    /*height: 50px;*/
     display: grid;
     grid-template-columns: auto auto;
     align-content: center;
@@ -8,7 +8,16 @@
 }
 
 .MinNauki, .MinProsv, img{
+    width: 60%;
+}
+.MinNauki, .MinProsv{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 0.4vw;
     width: 90%;
+    color: #c0c0c0;
+    font-family: "Montserrat Regular";
+
 }
 .MinNauki{
     /*border: 1px solid red;*/
@@ -16,3 +25,7 @@
 .MinProsv{
     /*border: 1px solid red;*/
 }
+
+/*.Ministerstvo div{*/
+/*    width: 50%;*/
+/*}*/

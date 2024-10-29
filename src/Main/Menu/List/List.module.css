@@ -3,16 +3,15 @@
     src: url('../../../resource/font/Montserrat-Thin.ttf');
 }
 .List{
-    /*border: 1px solid green;*/
     width: 100%;
-    height: 76vh;
+    height: 82vh;
     overflow-y: auto;
+    overflow-x:hidden;
 }
 .List::-webkit-scrollbar {
     width: 0.2vw;
 }
 .List::-webkit-scrollbar-track {
-    /*-webkit-box-shadow: 5px 5px 5px -5px rgba(148, 99, 99, 0.2) inset;*/
     background-color: #4d4d4d;
     border-radius: 5px;
 }
@@ -22,7 +21,6 @@
     background: #FECF00;
 }
 .Section{
-    /*border: 1px solid white;*/
     display: grid;
     align-content: center;
     grid-template-columns: 15% 85%;
@@ -30,32 +28,21 @@
     margin-top: 1.5vh;
     font-size: 1.2vw;
     padding-left: 5%;
-    /*justify-content: center;*/
 }
 
 .IconSection{
-    /*width: 89%;*/
-    /*border: 1px solid red;*/
     display: grid;
     align-content: center;
     justify-content: center;
-    /*background-color: #333333;*/
-    /*border: 1px solid #FECF00;*/
     border-radius: 5px 0 0 5px;
-    /*margin-left: 25%;*/
     border-right: 1px solid #4d4d4d;
     background-color: #333333;
 
 }
-/*.Nav{*/
-/*    border: 1px solid red;*/
-/*}*/
+
 .TextSection{
     font-size: 70%;
-    /*display: grid;*/
-    /*align-content: center;*/
     text-align: start;
-    /*border: 1px solid red;*/
     font-family: "Montserrat Thin";
     font-weight: bold;
     border-radius: 0 5px 5px 0;
@@ -70,7 +57,6 @@
 .TextSection:hover{
     background-color: #FECF00;
     color: black;
-    /*border-radius: 5px;*/
 }
 .SectionImage{
     width: 70%;

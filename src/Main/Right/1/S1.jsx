@@ -1,29 +1,40 @@
 import s from "./S1.module.css";
 import { motion} from "framer-motion";
-import {useState} from "react";
+import Line1 from "./Line1/Line1.jsx";
+import Line2 from "./Line2/Line2.jsx";
 
 function S1() {
     return (
         <motion.div className={s.S1}>
-            <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{duration: 0.2}} className={s.Line1}>
-                <div className={s.Title}>
-                    <div className={s.FullName}>Полное наименование</div>
-                    <div className={s.Name}>Учебный центр<br/> Акционерного общества “РН-Няганьнефтегаз”</div>
-                    <div className={s.ShortName}>Сокращенное наименование: УЦ АО “РН-Няганьнефтегаз”</div>
-                </div>
-                <div className={s.LogoRN}></div>
-            </motion.div>
-            <div className={s.Line2}>
-                <div className={s.HistoryNow}>
-                    <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{duration: 0.3}} className={s.History}>
-                        <motion.div className={s.Top}>asdasd</motion.div>
-                    </motion.div>
-                    <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{duration: 0.4}} className={s.Now}>asdasd</motion.div>
-                </div>
-                <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{duration: 0.5}} className={s.Contacts}>asdasd</motion.div>
-            </div>
+            <Line1/>
+            <Line2/>
         </motion.div>
     );
 }
 
 export default S1;
+
+
+// <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{duration: 0.4}} className={s.Now}>
+//     <div className={s.Top}>
+//         <h4>Учебный центр сегодня</h4>
+//         Учебный центр АО «РН-Няганьнефтегаз» является структурным подразделением АО «РН-Няганьнефтегаз» входящим в состав Блока по персоналу и социальным программам.
+//         Деятельность Учебного центра направлена на качественное удовлетворение потребности в обучении персонала АО «РН-Няганьнефтегаз». Для организации качественного, удобного и эффективного обучения сотрудников Общества учебные классы организованны в городе Нягань и на территории производственных подразделений.
+//         Центр реализует основные программы профессионального обучения и программы дополнительного профессионального образования повышение квалификации.
+//         Профессиональная подготовка, переподготовка и повышение квалификации рабочих, специалистов руководителей осуществляется по следующим направлениям:
+//         •  Добыча нефти и газа
+//
+//         •  Перекачка и подготовка нефти
+//
+//         •  Электротехника
+//
+//         •  Теплотехника и газовое хозяйство
+//
+//         •  Грузоподъёмные механизмы
+//
+//         •  Охрана труда
+//
+//         •  Промышленная безопасность
+//     </div>
+//     <div className={s.ReadMore}><strong>Читать далее...</strong></div>
+// </motion.div>

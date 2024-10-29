@@ -1,0 +1,38 @@
+.Line1{
+    /*border: 1px solid blue;*/
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 85% 15%;
+    /*padding: 20px;*/
+    margin-top: 2%;
+    border-radius: 5px;
+    box-shadow: 0 4px 17px 1px #d9d9d9;
+    font-size: 1.2vw;
+}
+.Title{
+    padding-left: 2%;
+    /*border: 1px solid blue;*/
+}
+.FullName, .ShortName{
+    font-size: 60%;
+    font-family: "Montserrat Regular";
+    color: #686868;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.Name{
+    font-family: "Montserrat ExtraBold";
+    color: #686868;
+    margin-bottom: 1%;
+}
+
+.LogoRN{
+    /*border: 1px solid red;*/
+    background-image: url("../../../../resource/LogoNNG.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}

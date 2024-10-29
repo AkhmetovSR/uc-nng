@@ -15,6 +15,7 @@ import Cook from "../../../resource/cook.png";
 import Gost from "../../../resource/gost.png";
 import InfoStudent from "../../../resource/infoStudent.png";
 import {NavLink} from "react-router-dom";
+import { motion} from "framer-motion";
 
 function List() {
     const sections = [
@@ -36,16 +37,14 @@ function List() {
     ]
 
     const sectionParse = sections.map(section =>
-        <div key={section.id} className={s.Section}>
+        <motion.div key={section.id} className={s.Section} whileHover={{scale:1.06}}>
             <div className={s.IconSection}><img className={s.SectionImage} src={section.img} alt="info"/></div>
             <NavLink to={section.link} className={s.Nav}><button className={s.TextSection}>{section.text}</button></NavLink>
-        </div>
+        </motion.div>
     )
 
     return (
         <div className={s.List}>
-            {/*<NavLink to="/">main</NavLink><br/>*/}
-            {/*<NavLink to="/structure">structure</NavLink>*/}
             {sectionParse}
         </div>
     );

@@ -3,4 +3,5 @@
     /*border: 1px solid red;*/
     display: grid;
     grid-template-columns: 21% 79%;
+    overflow: hidden;
 }
