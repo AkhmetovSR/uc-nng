@@ -1,6 +1,12 @@
 import s from "./Line2.module.css";
 import {motion} from "framer-motion";
 import Contacts from "./Contacts/Contacts.jsx";
+import ouc1 from "../../../../resource/ouc1.png";
+import ouc2 from "../../../../resource/ouc2.png";
+import ouc3 from "../../../../resource/ouc3.png";
+import ouc4 from "../../../../resource/ouc4.png";
+import ouc5 from "../../../../resource/ouc5.png";
+import ouc6 from "../../../../resource/ouc6.png";
 import uc1 from "../../../../resource/uc1.png";
 import uc2 from "../../../../resource/uc2.png";
 import uc3 from "../../../../resource/uc3.png";
@@ -8,9 +14,24 @@ import uc4 from "../../../../resource/uc4.png";
 import uc5 from "../../../../resource/uc5.png";
 import uc6 from "../../../../resource/uc6.png";
 
+
 function Line2() {
 
-    const photoArr = [
+    const photoOld = [
+        {id: 1, photo: ouc1},
+        {id: 1, photo: ouc2},
+        {id: 1, photo: ouc3},
+        {id: 1, photo: ouc4},
+        {id: 1, photo: ouc5},
+        {id: 1, photo: ouc6},
+    ]
+    const oldPhoto = photoOld.map(photo =>
+        <div key={photo.id} className={s.PhotoCard}>
+            <img src={photo.photo} className={s.Photo} alt="uc"/>
+        </div>
+    )
+
+    const photoNew = [
         {id: 1, photo: uc1},
         {id: 1, photo: uc2},
         {id: 1, photo: uc3},
@@ -18,7 +39,7 @@ function Line2() {
         {id: 1, photo: uc5},
         {id: 1, photo: uc6},
     ]
-    const photo = photoArr.map(photo =>
+    const newPhoto = photoNew.map(photo =>
     <div key={photo.id} className={s.PhotoCard}>
         <img src={photo.photo} className={s.Photo} alt="uc"/>
     </div>
@@ -56,6 +77,9 @@ function Line2() {
                 эффективность производства за счёт повышения квалификации сотрудников предприятия,
                 совершенствования их профессиональных
                 навыков с помощью учебных программ.</div>
+                <div className={s.PhotoDiv}>
+                    {oldPhoto}
+                </div>
 
                 <div><h4>Учебный центр сегодня</h4></div>
                 <div>Учебный центр АО «РН-Няганьнефтегаз» является структурным подразделением АО
@@ -67,16 +91,16 @@ function Line2() {
                     Центр реализует основные программы профессионального обучения и программы дополнительного
                     профессионального образования повышение квалификации.
                     Профессиональная подготовка, переподготовка и повышение квалификации рабочих, специалистов
-                    руководителей осуществляется по следующим направлениям:
-                    • Добыча нефти и газа
-                    • Перекачка и подготовка нефти
-                    • Электротехника
-                    • Теплотехника и газовое хозяйство
-                    • Грузоподъёмные механизмы
-                    • Охрана труда
+                    руководителей осуществляется по следующим направлениям:<br/>
+                    • Добыча нефти и газа<br/>
+                    • Перекачка и подготовка нефти<br/>
+                    • Электротехника<br/>
+                    • Теплотехника и газовое хозяйство<br/>
+                    • Грузоподъёмные механизмы<br/>
+                    • Охрана труда<br/>
                     • Промышленная безопасность</div>
                 <div className={s.PhotoDiv}>
-                    {photo}
+                    {newPhoto}
                 </div>
             </motion.div>
 

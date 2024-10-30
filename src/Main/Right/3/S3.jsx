@@ -9,8 +9,6 @@ import Report from "../../../resource/report.webp";
 import Rules from "../../../resource/rules.webp";
 import Documents from "../../../resource/document.webp";
 
-
-
 function S3() {
     const documentsArray = [
         {id: 1, img: UstavImg, link: Ustav, text: "Устав АО «РН-Няганьнефтегаз»"},

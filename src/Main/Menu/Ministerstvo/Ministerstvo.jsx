@@ -6,11 +6,11 @@ function Ministerstvo() {
     return (
         <div className={s.Ministerstvo}>
             <div className={s.MinNauki}>
-                <img src={MinNauki} alt="MinNauki"/>
+                <img className={s.Nauki} src={MinNauki} alt="MinNauki"/>
                 <div>МИНИСТЕРСТВО НАУКИ <br/>И ВЫСШЕГО ОБРАЗОВАНИЯ<br/>РОССИЙСКОЙ ФЕДЕРАЦИИ</div>
             </div>
             <div className={s.MinProsv}>
-                <img src={MinProsv} alt="MinProsv"/>
+                <img className={s.Prosv} src={MinProsv} alt="MinProsv"/>
                 <div>МИНИСТЕРСТВО ПРОСВЕЩЕНИЯ<br/>РОССИЙСКОЙ ФЕДЕРАЦИИ</div>
             </div>
         </div>

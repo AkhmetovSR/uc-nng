@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: 20% auto;
     border-bottom: 1px solid #575757;
-    /*background-color: #FECF00;*/
+    background-color: #2C2C2C;
 }
 .Logotype{
     /*border: 1px solid green;*/

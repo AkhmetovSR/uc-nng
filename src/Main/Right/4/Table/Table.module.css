@@ -1,0 +1,21 @@
+.Table{
+/*background-color: #FECF00;*/
+}
+.TableLine{
+    /*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: 5% 20% 12% 12% 15% 12% 10% 14%;
+}
+.TableLine div{
+    /*border: 1px solid black;*/
+    /*background-color: #a1a1a1;*/
+    /*box-shadow: 0 4px 17px 1px #d9d9d9;*/
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    margin: 1px;
+    color: #737373;
+    padding: 15px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}

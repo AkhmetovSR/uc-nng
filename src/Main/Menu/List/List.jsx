@@ -22,7 +22,7 @@ function List() {
         {id: 1, img: Info, link: "/", text: "Сведения об образовательной организации"},
         {id: 2, img: Structure, link: "/structure", text: "Структура и органы управления образовательной организации"},
         {id: 3, img: Documents, link: "/documents", text: "Документы"},
-        {id: 4, img: Education, link: "/3", text: "Образование"},
+        {id: 4, img: Education, link: "/education", text: "Образование"},
         {id: 5, img: Managment, link: "/4", text: "Руководство"},
         {id: 6, img: Teacher, link: "/5", text: "Педагогический состав"},
         {id: 8, img: Material, link: "/6", text: "Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда"},
