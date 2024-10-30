@@ -1,0 +1,22 @@
+.Table{
+    width: 95%;
+}
+.TableLine{
+    display: grid;
+    grid-template-columns: 5% 23% 9% 12% 15% 12% 10% 14%;
+}
+.TableLine div{
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    margin: 1px;
+    color: #494949;
+    padding: 15px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+.Dop{
+    font-family: "Montserrat ExtraBold";
+    text-align: center;
+    margin-bottom: 2%;
+}

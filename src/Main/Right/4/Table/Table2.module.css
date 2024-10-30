@@ -1,0 +1,33 @@
+.Table2{
+    /*border: 1px solid red;*/
+    margin-top: 5%;
+    /*font-family: "Montserrat ExtraBold";*/
+    text-align: center;
+    margin-bottom: 2%;
+    /*width: 110%;*/
+}
+.TableLine{
+    background-color: #fed100;
+    display: grid;
+    grid-template-columns: 3% 15% 6% 7% 22% 9% 9% 8% 9% 12%;
+}
+.TableLine div{
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 1px;
+    color: #282828;
+    align-content: center;
+    text-align: center;
+}
+.Term{
+
+}
+.theoryPractice{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Dop{
+    font-family: "Montserrat ExtraBold";
+    text-align: center;
+    margin-bottom: 2%;
+}

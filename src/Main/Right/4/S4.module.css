@@ -12,7 +12,7 @@
     overflow-x: hidden;
     /*border: 1px solid green;*/
     /*align-items: center;*/
-    /*justify-items: center;*/
+    justify-items: center;
     /*box-shadow: 0 4px 17px 1px #d9d9d9;*/
     /*border-radius: 5px;*/
     /*overflow: hidden;*/
@@ -20,16 +20,16 @@
     color: #686868;
 }
 .S4::-webkit-scrollbar {
-    width: 0;
+    width: 0.15vw;
 }
-/*.S4::-webkit-scrollbar-track {*/
-/*    background-color: #4d4d4d;*/
-/*    border-radius: 5px;*/
-/*}*/
-/*.S4::-webkit-scrollbar-thumb {*/
-/*    border-radius: 10px;*/
-/*    background: #FECF00;*/
-/*}*/
+.S4::-webkit-scrollbar-track {
+    background-color: #4d4d4d;
+    border-radius: 5px;
+}
+.S4::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #FECF00;
+}
 .S4 h4{
     font-family: "Montserrat ExtraBold";
     text-align: center;
